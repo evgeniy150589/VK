@@ -1,6 +1,7 @@
 package ru.netology.domain;
 
 public class SharesInfo {
-    private long count;
+    private int count;
     private String icon;
+    private int user_reposted;
 }

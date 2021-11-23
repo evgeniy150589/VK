@@ -1,10 +1,11 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    private String nameOwnerId;
-    private  String iconOwnerId;
+    private int fromId;
+    private String namefromId;
+    private String iconfromId;
     private String textComments;
-    private String dateTimeComment;
+    private int date;
     private String replyLink;
     private String shareLink;
     private LikesInfo likesComments;

@@ -1,9 +1,9 @@
 package ru.netology.domain;
 
 public class Header {
-    private String  nameOwnerId;
+    private int nameOwnerId;
     private String iconOwnerId;
-    private String dateTimePost;
+    private int date;
     private String buttonSubscribe;
     private String buttonMoreIcon;
 }
